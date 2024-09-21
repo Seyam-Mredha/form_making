@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+ <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Libary form</title>
+  <style>
+    label {
+      display: block;
+    }
+    .id {
+      margin-top: 10px;
+      color: brown;
+    }
+    h1 {
+      text-align: center;
+      color: crimson;
+    }
+    address {
+      text-align: center;
+    }
+    footer {
+      /* text-decoration: none; */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><em>Saheprotab Islami Libary</em></h1>
+    <p><address><b>Mredhabari,Saheprotab,Narsingdi Sadar,Narsingdi-1603</b></address></p>
+  </header>
+  <main>
+    <section>
+      <h2>Please fill up the form </h2>
+      <form>
+        <label for="name">Your Name:
+          <input type="text" placeholder="Your name" id="name">
+        </label>
+        <label for="email">
+          Your Email:
+          <input type="email" placeholder="Your Email">
+        </label>
+        <label for="phone">Your Phone:
+          <input type="text" id="phone" placeholder="Your Phone">
+        </label>
+        <fieldset>
+          <legend>Which kind of membershib do you want?</legend>
+          <label for="time">
+            <input type="radio" name="time" id="one week">For one week
+          </label>
+          <label for="time">
+            <input type="radio" name="time" id="one month">For one month
+          </label>
+          <label for="time">
+            <input type="radio" name="time" id="one year">For one year
+          </label>
+          <label for="time">
+            <input type="radio" name="time" id="parmanent">For parmanent
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Which type of book your wishing to donate</legend>
+          <label for="type">
+            <input type="checkbox" name="book" id="history">Historical
+          </label>
+          <label for="type">
+            <input type="checkbox" name="book" id="hadis">Hadis-fikha
+          </label>
+            <label for="type">
+              <input type="checkbox" name="book" id="literature">Literature
+            </label>
+            <label for="type">
+              <input type="checkbox" name="book" id="quran">QURAN
+            </label>
+            <label for="type">
+              <input type="checkbox" name="book" id="biopic of sahaba">Sahaba's biopic
+            </label>
+        </fieldset>
+        <fieldset>
+          <legend>Any questions about us</legend>
+          <textarea name="" id="" cols="30" rows="5"></textarea>
+        </fieldset>
+        <input type="reset" value="Reset" class="id">
+        <input type="submit" value="Submit" class="id">
+      </form>
+    </section>
+  </main>
+  <footer>
+    <strong>Contact us: <br>
+    </strong><u>Phone number:</u> 01404747075,01766589128 <br>
+     <u>Email address:</u> mredhaseyam@gmail.com
+  </footer>
+</body>
+</html>
